@@ -1,0 +1,458 @@
+@font-face {
+  font-family: "Gunterz";
+  src: url("./Gunterz-Medium.woff2") format("woff2"),
+    url("./Gunterz-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.content-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.images-grid {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.column {
+  -ms-flex: 45%; /* IE10 */
+  flex: 45%;
+  max-width: 50%;
+  /* padding: 0 4px;  */
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.right-column.column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/* Three Col Card */
+.card-conta {
+  text-align: center;
+  flex-basis: 30%;
+}
+
+.cards-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section#advantages {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#advantages h2 {
+  color: var(--Soledad-Balck, #1c1c1c);
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+#advantages p {
+  margin: 0;
+  color: var(--Soledad-Balck, #1c1c1c);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 24px */
+}
+
+.icon-wrapper {
+  margin-bottom: 10px;
+}
+
+.card-2.card-conta .icon-wrapper {
+  margin-bottom: 20px;
+}
+
+#discount-form-section {
+  position: relative;
+  z-index: 1;
+}
+
+#discount-form-section .content-wrap {
+  display: flex;
+}
+
+.half-width {
+  flex-basis: 50%;
+}
+
+.half-width {
+  flex-basis: 50%;
+}
+
+.signup-text {
+  color: #fff;
+  font-family: Gunterz;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+.discount {
+  font-family: Gunterz;
+  font-size: 108px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 12.96px;
+  background: linear-gradient(#b18927, #e8bc51);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button#more-info {
+  color: #191919;
+  font-family: Gunterz;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  border-radius: 3px;
+  background: #fff;
+  padding: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 350px;
+}
+
+.copy-wrap {
+  max-width: 55%;
+  padding: 45px 160px 50px 20px;
+}
+
+.copy-conta {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.decorative-vector {
+  position: absolute;
+  right: 35px;
+  bottom: 28px;
+}
+
+/* Form section */
+
+.right-col.half-width {
+  background: linear-gradient(69deg, #e8bc51, #b18927);
+  position: relative;
+}
+
+input#email {
+  border: 1px solid #c0c0c0;
+  background: #fff;
+  padding: 16.5px 16px;
+  width: 314px;
+}
+
+input[type="text"] {
+  color: #8e8e8e;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button[type="submit"] {
+  color: #fff;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background: #191919;
+  padding: 15px 50px;
+  border: 1px solid #191919;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.3s all ease-in-out;
+}
+
+.privacy-consent label {
+  color: var(--Soledad-Balck, #1c1c1c);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  margin: 0;
+}
+
+.privacy-consent {
+  display: flex;
+  gap: 20px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+}
+
+.privacy-consent {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-top: 20px;
+}
+
+.form-conta {
+  padding-left: 100px;
+}
+
+.form-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+}
+
+/* Hide the browser's default checkbox */
+.privacy-consent input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%; 
+}
+
+/* Create a custom checkbox */
+.privacy-consent .checkmark {
+  position: absolute;
+  top: 53%;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee0;
+  border: 1.5px solid #000;
+  border-radius: 3px;
+  transform: translateY(-50%);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+
+/* On mouse-over, add a grey background color */
+.privacy-consent:hover .checkmark {
+  background-color: #ccc;
+}
+.privacy-consent .checkmark:before {
+  content: "";
+  position: absolute;
+  display: none; 
+}
+
+/* Show the checkmark when checked */
+.privacy-consent input[type="checkbox"]:checked ~ .checkmark:before {
+  display: block !important; /* Show the checkmark */
+}
+
+.privacy-consent .checkmark:before {
+  left: 4px;
+  top: 0;
+  width: 4px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* Social Handles */
+.social-handles {
+  border: 4px solid #fff;
+  width: 152px;
+  height: 225px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  box-sizing: border-box;
+}
+
+.social-icons {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.decorative-img {
+  display: flex;
+  align-items: end;
+}
+
+@media (max-width: 1200px) {
+  .copy-wrap {
+    max-width: 90%;
+  }
+
+  .form-conta {
+    padding-left: 10%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    margin-top: 15px;
+  }
+  input#email {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .social-handles {
+    width: 90px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .privacy-consent {
+    display: inline-block;
+  }
+  button[type="submit"] {
+    margin: 0;
+  }
+
+  .privacy-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  #discount-form-section .content-wrap {
+    display: block;
+  }
+
+  .form-conta {
+    padding: 40px 20px 120px;
+  }
+
+  .copy-wrap {
+    padding: 40px 20px;
+    max-width: 100%;
+  }
+
+  .copy-conta {
+    display: block;
+    text-align: center;
+  }
+
+  .form-wrap {
+    display: block;
+  }
+
+  .social-handles {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .cards-wrap {
+    display: block;
+  }
+  .card-conta {
+    margin-bottom: 40px;
+  }
+  .card-conta {
+    margin-bottom: 40px;
+  }
+
+  .right-column.column,
+  .images-grid {
+    display: block;
+  }
+
+  .images-grid img {
+    margin-bottom: 30px;
+  }
+
+  .column {
+    max-width: 100%;
+  }
+  #advantages h2 {
+    font-size: 26px;
+  }
+
+  input#email {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .input-wrap {
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    gap: 10px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .discount {
+    font-size: 75px;
+  }
+
+  button#more-info {
+    font-size: 12px;
+  }
+}
